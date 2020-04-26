@@ -1,0 +1,318 @@
+﻿/*
+
+Theme Name: X – Child Theme
+Theme URI: http://theme.co/x/
+Author: Themeco
+Author URI: http://theme.co/
+Description: Make all of your modifications to X in this child theme.
+Version: 1.0.0
+Template: x
+
+*/
+
+
+/* Add Life Savers Font */
+
+@font-face {
+    font-family: LifeSaversBold;
+    src: url('//beenature.com.au/wp-content/fonts/lifesavers-bold-webfont.eot');
+    src: url('//beenature.com.au/wp-content/fonts/lifesavers-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('//beenature.com.au/wp-content/fonts/lifesavers-bold-webfont.woff') format('woff'),
+        url('//beenature.com.au/wp-content/fonts/lifesavers-bold-webfont.ttf') format('truetype'),
+        url('//beenature.com.au/wp-content/fonts/lifesavers-bold-webfont.svg#fontname') format('svg');
+}
+
+
+
+
+
+/* Shop front page category title */
+
+.woocommerce-loop-category__title, h2 {
+	text-align: center;
+	font-family: LifeSaversBold;
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+
+/* Shop - Wrap Size Headings */
+.shop_wrap_size_headings {
+	font-size: 12pt;
+	font-family: LifeSaversBold;
+	color: black;
+}
+
+
+/* Product category page - page title */
+.h-landmark, h1 {
+	font-family: LifeSaversBold;
+}
+
+
+
+/* Product category page - page subtitle */
+/* .p-landmark-sub, .p-meta, input, button, select, textarea { */
+/*    font-family: LifeSaversBold; */
+/* }*/
+
+p.p-landmark-sub {
+	font-family: LifeSaversBold;
+}
+
+
+/* Product category page add to cart button */
+.woocommerce li.product .entry-header .button {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+/* Product category page product title */
+
+.woocommerce .entry-header, h3 a {
+	font-family: LifeSaversBold !important;
+	font-size: 21px;
+
+}
+
+/* This works for the blank link but not for hover
+.woocommerce-page li.product .entry-header h3 a {
+	color: black;
+}
+*/
+
+
+/* Product Category Page Product Price */
+
+.woocommerce li.product .entry-header .price>.amount {
+	color: #7A7A82;
+	font-family: Helvetica;
+}
+
+
+
+
+/* Single product page product title */
+
+.woocommerce div.product .summary .product_title {
+	font-family: LifeSaversBold;
+}
+
+
+
+/* Single Product Page Price */
+
+.woocommerce div.product .summary .price>.amount {
+	color: #7A7A82;
+	font-family: Helvetica;
+}
+
+
+.woocommerce div.product .summary .price {
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/* Single product page add to cart button */
+.single_add_to_cart_button.button {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+/* Single product page - Related products heading */
+.woocommerce .related h2 {
+	font-family: LifeSaversBold;
+}
+
+
+/* Cart Title */
+.entry-title, h1 {
+	font-family: LifeSaversBold;
+}
+
+
+/* Cart Apply Coupon and Update Cart Buttons */
+.cart .actions .button {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+
+/* Cart Proceed to Checkout Button */
+a.checkout-button {
+	font-family: Arial;
+	font-weight: bold;
+}
+
+
+
+
+/* Cart Totals */
+.woocommerce .cart-collaterals .cart_totals h2 {
+	font-family: LifeSaversBold;
+}
+
+
+
+/* Checkout - Billing Details */
+.woocommerce-billing-fields, h3:first-child {
+	font-family: LifeSaversBold;
+}
+
+/* Checkout - Billing Details Paragraph */
+.woocommerce-billing-fields, p {
+	font-family: Times;
+}
+
+/* Checkout - Your Order */
+.woocommerce-checkout, h3 {
+	font-family: LifeSaversBold;
+}
+
+
+/* Checkout - Your Order Paragraph */
+.woocommerce-checkout-review-order, p {
+	font-family: Times;
+}
+
+
+/* Change Breadcrumb */
+.x-breadcrumb, a {
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: 600;
+}
+.x-breadcrumb-wrap {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+/* Footer Paragraph Text */
+.x-colophon.bottom, p {
+	font-size: 14px;
+}
+
+
+/* Change Out of Stock Font */
+p.stock.out-of-stock {
+	color:red;
+	font-family: 'Trebuchet MS';
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+/* Change Low Stock Font */
+p.stock.in-stock {
+	color:black;
+	font-family: 'Trebuchet MS';
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+
+/* Remove caption from gallery images*/
+.pswp__caption__center {
+	display:none;
+}
+
+/* Videos page - heading font */
+h2.h-custom-headline.cs-ta-left.h3.accent {
+	font-family: LifeSaversBold;
+}
+
+
+/* Product Pages Change Font of Sale Items */
+del .woocommerce-Price-amount.amount {
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+ins .woocommerce-Price-amount.amount {
+	font-family: Helvetica;
+	font-size: 18px;
+	color: rgb(255, 110, 0) !important;
+}
+
+
+/* Remove breadcrumb from specific pages */
+.videos .x-breadcrumb-wrap {display:none;}
+
+
+/* Move Cart in Header to RHS on Mobile */
+
+/* Posts H1 - Font size */
+.single-post h1 {
+  font-size: 30px;
+	margin-bottom: 1em;
+}
+
+/* Posts H2 - Align to left, Change font, size, color, increase top margin */
+.single-post h2 {
+	text-align: left;
+	color: rgb(255,170,0) !important;
+	font-size: 24px !important;
+	font-family: LifeSaversBold !important;
+	margin-top: 40px;
+}
+
+/* Posts H3 - Font, size */
+.single-post h3 {
+	font-family: LifeSaversBold;
+	font-size: 24px;
+}
+
+/* Post Paragraph Text - Black, font, font size */
+.single-post p {
+	font-family: georgia, palatino, serif;
+	font-size: 12pt;
+	color: #121212;
+}
+
+/* Post Links - Change font, font size, font weight */
+.single-post a {
+	font-family: georgia, palatino, serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+/* Posts Bullets and Numbering - Change color, font size, font weight */
+.single-post li::marker {
+	color: rgb(255,170,0);
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* Posts Bullet and Numbered Lists - Change color, font size, font */
+.single-post li {
+	color: #121212;
+	font-size: 16px;
+	font-family: georgia, palatino, serif;
+}
+
+/* Posts Bullet and Numbered Lists Links - Add class = "blackbullet" - Change font size, font */
+.blackbullet a {
+	font-size: 18px;
+	font-family: LifeSaversBold;
+	font-weight: 400;
+}
+
+/* Posts Bullets of Lists of Links - Add class = "blackbullet" - Change color to black */
+.blackbullet::marker {
+	color: #121212 !important;
+}
+
+/* Post Breadcrumb - Change font, font weight, font size */
+.single-post .x-breadcrumbs a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
